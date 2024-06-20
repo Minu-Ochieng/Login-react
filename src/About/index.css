@@ -1,0 +1,13 @@
+.about-text {
+  color: rgb(19, 228, 137);
+}
+button {
+  background-color: rgb(3, 86, 58);
+  border: none;
+  color: #ffffff;
+  width: 130px;
+  height: 60px;
+  padding: 16px;
+  border-radius: 30px;
+  margin-left: 30px;
+}
