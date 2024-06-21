@@ -1,7 +1,5 @@
 import "./index.css";
 
-
-
 const UserCard = ({ image, fullName, age, maidenMaid, email }) => {
   return (
     <div>

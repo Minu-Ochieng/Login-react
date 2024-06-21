@@ -1,0 +1,6 @@
+.details {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-left: 70px;
+  margin-top: 70px;
+}

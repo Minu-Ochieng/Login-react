@@ -7,7 +7,7 @@ const Welcome = () => {
     <>
       <div className="welcome">
         <h2>Welcome to Display User</h2>
-        <button type="submit">
+        <button type="submit" className="btn">
           <Link to="/login">Login</Link>
         </button>
       </div>

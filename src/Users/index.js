@@ -6,7 +6,7 @@ const Users = () => {
   const { users, error, loading } = useGetUsers();
   console.log({ users });
   return (
-    <div>
+    <div className="details">
       {loading && <h2>loading users ...</h2>}
       {error.length > 0 && <h2>{error}</h2>}
       {users.length > 0

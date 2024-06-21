@@ -1,9 +1,16 @@
-button {
+.btn {
   border: none;
-  width: 50%;
+  width: 5%;
+  /* margin-left: 10%; */
   padding: 16px;
-}
-Link {
-  color: #ffff;
   text-decoration: none;
+  border-radius: 23px;
+}
+.btn a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+}
+.welcome {
+  text-align: center;
 }
