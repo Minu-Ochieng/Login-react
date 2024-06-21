@@ -1,0 +1,9 @@
+button {
+  border: none;
+  width: 50%;
+  padding: 16px;
+}
+Link {
+  color: #ffff;
+  text-decoration: none;
+}

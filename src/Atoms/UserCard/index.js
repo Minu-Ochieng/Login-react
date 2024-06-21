@@ -1,6 +1,8 @@
-const UserCard = ({ image, fullName, age,maidenMaid, email }) => {
+import "./index.css";
 
 
+
+const UserCard = ({ image, fullName, age, maidenMaid, email }) => {
   return (
     <div>
       <img src={image} alt={`${fullName} profile`} />

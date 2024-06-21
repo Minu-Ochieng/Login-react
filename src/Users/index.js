@@ -1,6 +1,7 @@
-import { useGetUsers } from "./hooks/useGetUsers";
-import UserCard from "../Atoms/UserCard";
+import "./index.css";
 
+import UserCard from "../Atoms/UserCard";
+import { useGetUsers } from "../Users/hooks/useGetUsers";
 const Users = () => {
   const { users, error, loading } = useGetUsers();
   console.log({ users });
@@ -15,14 +16,8 @@ const Users = () => {
               image={user.image}
               fullName={`${user.firstName} ${user.lastName}`}
               age={user.age}
-              maidenMaid = {user.maidenMaid}
-              email = {user.email}
-
-
-
-            
-              
-
+              maidenMaid={user.maidenMaid}
+              email={user.email}
             />
           ))
         : !loading && <h2>No users found </h2>}
